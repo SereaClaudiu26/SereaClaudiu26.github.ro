@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxia Andromeda - O Călătorie Cosmică</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<!-- Butoane și sidebar -->
+<button id="menuButton" class="menu-button">&#9776;</button>
+<div id="sidebar" class="sidebar">
+    <button id="closeButton" class="close-button">&times;</button>
+    
+    <!-- Header sidebar cu buton home -->
+    <div class="sidebar-header">
+        <a href="../concurs.html" id="homeButton" class="home-button">🏠</a>
+        <h3>Navigație Cosmică</h3>
+    </div>
+    
+    <!-- Planete -->
+<div class="menu-item has-submenu">
+    <a href="#">Planete <span class="arrow">▼</span></a>
+    <div class="submenu-right hidden">
+        <a href="../Planete/mercur.html">Mercur</a>
+        <a href="../Planete/venus.html">Venus</a>
+        <a href="../Planete/pamant.html">Pământ</a>
+        <a href="../Planete/marte.html">Marte</a>
+        <a href="../Planete/jupiter.html">Jupiter</a>
+        <a href="../Planete/saturn.html">Saturn</a>
+        <a href="../Planete/uranus.html">Uranus</a>
+        <a href="../Planete/neptun.html">Neptun</a>
+    </div>
+</div>
+    
+    <!-- Galaxii -->
+    <div class="menu-item">
+        <a href="../Galaxii/andromeda.html">Galaxii</a>
+    </div>
+    
+    <!-- Constelații -->
+    <div class="menu-item">
+        <a href="../Constelatii/constelatii.html">Constelații</a>
+    </div>
+
+    <!-- Fenomene cosmice -->
+ <div class="menu-item has-submenu">
+    <a href="#">Misiuni Interactive<span class="arrow">▼</span></a>
+    <div class="submenu-right hidden">
+        <a href="../Misiuni Interactive/calcularemasa.html">Calcul masa</a>
+       <a href="Misiuni Interactive/aventura spatiala.html">Aventura spatiala</a>
+        <a href="../Misiuni Interactive/testul1.html">1. Test interactiv</a>
+         <a href="../Misiuni Interactive/testul2.html">2. Test interactiv</a>
+         <a href="../Misiuni Interactive/testul3.html">3. Test interactiv</a>
+</div></div><div class="menu-item">
+        <a href="../Credite/credite.html">Credite</a>
+    </div></div></div>
+
+
+    <header class="parallax">
+        <nav>
+            <div class="logo">ANDROMEDA</div>
+            <ul class="nav-links">
+                <li><a href="#about">Despre</a></li>
+                <li><a href="#facts">Date Științifice</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#future">Viitorul</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>GALAXIA ANDROMEDA</h1>
+            <p>Cel mai apropiat vecin cosmic al Căii Lactee</p>
+            <button id="explore-btn">Explorează Universul</button>
+        </div>
+        <div class="scroll-down">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section id="about" class="content-section">
+        <div class="section-container">
+            <h2>Descoperă Andromeda</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Galaxia Andromeda (M31) este cea mai mare galaxie din Grupul Local, care include și Calea noastră Lactee. Situată la aproximativ 2,5 milioane de ani-lumină distanță, Andromeda este cel mai îndepărtat obiect cosmic vizibil cu ochiul liber de pe Pământ.</p>
+                    <p>Cu un diametru de aproximativ 220.000 de ani-lumină, Andromeda conține circa un trilion de stele, dublu față de Calea Lactee. Această galaxie spirală masivă este destinată să se ciocnească cu galaxia noastră în aproximativ 4,5 miliarde de ani.</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="image-placeholder" style="background-image: url('https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')"></div>
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="facts" class="parallax facts-section">
+        <div class="section-container">
+            <h2>Date Științifice Fascinante</h2>
+            <div class="facts-grid">
+                <div class="fact-card">
+                    <i class="fas fa-ruler-combined"></i>
+                    <h3>Dimensiuni</h3>
+                    <p>220.000 ani-lumină diametru</p>
+                </div>
+                <div class="fact-card">
+                    <i class="fas fa-star"></i>
+                    <h3>Stele</h3>
+                    <p>~1 trilion de stele</p>
+                </div>
+                <div class="fact-card">
+                    <i class="fas fa-space-shuttle"></i>
+                    <h3>Distanță</h3>
+                    <p>2,5 milioane ani-lumină</p>
+                </div>
+                <div class="fact-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Vârstă</h3>
+                    <p>~10 miliarde de ani</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="content-section">
+        <div class="section-container">
+            <h2>Galerie Cosmică</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <div class="image-placeholder" style="background-image: url('https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')"></div>
+                    <div class="gallery-overlay">
+                        <h3>Vedere panoramică</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder" style="background-image: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')"></div>
+                    <div class="gallery-overlay">
+                        <h3>Nucleul galactic</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder" style="background-image: url('https://images.unsplash.com/photo-1506443432602-ac2fcd6f54e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')"></div>
+                    <div class="gallery-overlay">
+                        <h3>Vedere UV</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="future" class="parallax future-section">
+        <div class="section-container">
+            <h2>Viitorul Andromedei</h2>
+            <div class="future-content">
+                <div class="future-image">
+                    <div class="collision-animation"></div>
+                </div>
+                <div class="future-text">
+                    <p>În aproximativ 4,5 miliarde de ani, Galaxia Andromeda și Calea Lactee se vor ciocni din cauza atracției gravitaționale reciproce. Această coliziune cosmică va dura miliarde de ani și va rezulta în formarea unei noi galaxii eliptice gigant, denumită uneori "Milkomeda".</p>
+                    <p>Interesant este faptul că, din cauza distanțelor imense dintre stele, este puțin probabil ca sistemele stelare individuale să se ciocnească în acest proces. În schimb, cele două galaxii se vor contopi gravitațional, reorganizându-și structura.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Explorare Cosmică</h3>
+                <p>Descoperă minunile universului prin acest portal către Galaxia Andromeda.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Link-uri rapide</h3>
+                <ul>
+                    <li><a href="#about">Despre Andromeda</a></li>
+                    <li><a href="#facts">Date științifice</a></li>
+                    <li><a href="#gallery">Galerie</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3></h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/16ZbypEeSC/?mibextid=wwXIfr "><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/m1rcea_l/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Explorare Cosmica</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
